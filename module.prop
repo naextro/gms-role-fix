@@ -1,0 +1,6 @@
+id=gms-role-fix
+name=Google Play Services Role Holders Permission Fix
+version=1.0
+versionCode=1
+author=naextro
+description=Fixes Google Play Services auth crash (SecurityException: getRoleHoldersAsUser) on newer GMS builds by whitelisting GET_ROLE_HOLDERS and MANAGE_ROLE_HOLDERS privileged permissions.
